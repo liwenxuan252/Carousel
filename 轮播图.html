@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #picture{
+            width: 100%;
+            height: 400px;
+            /* outline: 10px solid; */
+            /* margin: 0 auto; */
+        }
+    </style>
+</head>
+<body>
+   <div id="picture"></div>
+   <script src="banner.js"></script>
+   <script>
+       var bannerArea = document.getElementById('picture');
+       createBannerArea(bannerArea,[
+           {imgUrl:"banner1.jpg"},
+           {imgUrl:"banner2.jpg"},
+           {imgUrl:"banner3.jpg"}
+       ]);
+   </script>    
+</body>
+</html>
